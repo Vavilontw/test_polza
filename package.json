@@ -1,0 +1,17 @@
+{
+  "name": "test_polza",
+  "version": "1.0.0",
+  "description": "Компании из Postgres: загрузчик data_pack + страница /companies на Next.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "type": "module",
+  "dependencies": {
+    "next": "^16.2.12",
+    "pg": "^8.22.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  }
+}

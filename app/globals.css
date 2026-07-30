@@ -1,0 +1,32 @@
+body {
+  margin: 0 auto;
+  padding: 32px 24px;
+  max-width: 1100px;
+  font: 15px/1.5 system-ui, sans-serif;
+  color: #1a1a1a;
+}
+
+h1 { font-size: 22px; margin: 0 0 16px; }
+
+form { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+input, select, button { padding: 7px 10px; font: inherit; border: 1px solid #c8c8c8; border-radius: 6px; }
+input { flex: 1 1 260px; }
+button { background: #1a1a1a; color: #fff; border-color: #1a1a1a; cursor: pointer; }
+a.reset { align-self: center; color: #666; font-size: 14px; }
+
+p.found { color: #666; margin: 0 0 12px; }
+
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #ececec; vertical-align: top; }
+th { font-size: 13px; text-transform: uppercase; letter-spacing: .03em; color: #666; }
+td.num { text-align: right; white-space: nowrap; }
+tr:hover td { background: #fafafa; }
+
+nav.pages { display: flex; gap: 4px; flex-wrap: wrap; align-items: center; margin: 16px 0 0; }
+nav.pages a, nav.pages > span, nav.pages .slot > * { padding: 6px 10px; border-radius: 6px; font-size: 14px; }
+nav.pages .slot { display: flex; gap: 4px; padding: 0; }
+nav.pages .gap { color: #bbb; padding-left: 2px; padding-right: 2px; }
+nav.pages a { color: #1a1a1a; text-decoration: none; border: 1px solid #ececec; }
+nav.pages a:hover { background: #fafafa; }
+nav.pages .here { background: #1a1a1a; color: #fff; }
+nav.pages .off { color: #bbb; }
